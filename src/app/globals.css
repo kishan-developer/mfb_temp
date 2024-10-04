@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --bg-section_white: "[#F7F3E8]";
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* 
+.Lato {
+  font-family: var(--font-Lato);
+}  */
+
+
+/* styles/globals.css */
+@font-face {
+  font-family: 'ESDokument';
+  src: url('/fonts/ESDokument-ExSmbd.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spezia';
+  src: url('/fonts/SpeziaWeb-Book.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@layer base {
+  
+
+
+  .header{
+      position: sticky;
+      bottom: 0;
+      left: 0;
+  }
+
+
+  h1,
+  h2,
+  h3 {
+    /* font-weight: 500; */
+    /* font-size: 42px; */
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #3C4617;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+
+
+  li {
+    font-weight: 00;
+  }
+
+}
