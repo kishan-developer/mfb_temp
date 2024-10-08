@@ -13,7 +13,7 @@ function Video_2() {
                 
 
                 <div className='absolute inset-0 flex items-center justify-center'>
-                    <div className='text-white text-center text-[42px] font-ESDokument tracking-8'>A SANCTUARY OF WELL-LIVING</div>
+                    <div className='text-white text-center text-[42px] font-ESDokument tracking-8'>UNITING THE ELEMENTS</div>
                 </div>
             </div>
         </>

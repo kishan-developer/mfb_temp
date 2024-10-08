@@ -23,17 +23,22 @@
 @font-face {
   font-family: 'ESDokument';
   src: url('/fonts/ESDokument-ExSmbd.woff') format('woff');
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Spezia';
   src: url('/fonts/SpeziaWeb-Book.woff') format('woff');
-  font-weight: bold;
+  font-weight: 300;
   font-style: normal;
 }
 
+
+html,
+body{
+  background-color: #F7F3E8;
+}
 @layer base {
   
 
@@ -54,8 +59,6 @@
 
   p {
     font-weight: 300;
-    font-size: 18px;
-    line-height: 32px;
     color: #3C4617;
   }
 

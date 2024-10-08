@@ -10,7 +10,6 @@ function Section_7() {
                     Get Started
                 </button>
             </div> */}
-
         </section>
     )
 }

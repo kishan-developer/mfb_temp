@@ -31,10 +31,10 @@ function Map_section() {
     };
 
     return (
-        <div>
-            <div className='h-screen w-fill relative'>
+        <div className="h-[1244.09px] w-full">
+            <div className='h-[1244.09px] w-fill relative pb-10'>
 
-                <Image width={1918.08} height={1244.09} src='/location/img_2.png' alt='imgContent_img' />
+                <Image className="relative" width={1918.08} height={1244.09} src='/location/img_2.png' alt='imgContent_img' />
 
                 <div>
                     <button
@@ -74,14 +74,15 @@ function Map_section() {
                     </button>
                 </div>
 
-                {/* <MapLogo /> */}
+                <div className="absolute top-[990.58px] left-0 w-full h-[250.42px] ">
+                    <Info />
+                </div>
 
 
             </div>
 
-
-            {/* #F7F3E8 */}
-            <Info/>
+           
+           
         </div>
     )
 }

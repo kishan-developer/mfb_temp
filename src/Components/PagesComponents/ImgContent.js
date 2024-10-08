@@ -10,7 +10,7 @@ function ImgContent({ contents }) {
     return (
         <div className='w-full h-[80vh] flex flex-row'>
             <div className='h-[100%] w-fill '>
-                <Image width={100%} height={100%}  src='/Home/img_content_img.jpeg' alt='imgContent_img' />
+                <Image width={750} height={720}  src='/Home/img_content_img.jpeg' alt='imgContent_img' />
             </div>
             
             <div className='w-[45%] h-[100%] flex items-center justify-center'>
