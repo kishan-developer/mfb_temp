@@ -22,6 +22,7 @@ function Content_section_2() {
                 <p className=' text-[#3C4617] text-center font-Spezia text-[18px]'>
                    
                     At every moment in The Alba Residences, your needs are anticipated and your peace is appreciated.
+                    
                 </p>
 
             </div>

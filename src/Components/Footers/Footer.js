@@ -64,9 +64,9 @@ function Footer() {
 
             <button className='text-[0.8rem] bg-[#AB8456] px-4 py-1 text-white'>CONTACT US</button>
 
-            <p className='w-full text-[#3C4617] text-[0.8rem]'>By signing  up I want to hear about new
+            <p className='w-full text-[#3C4617] text-[0.8rem]'>By signing up I   want to hear about new
               updates and masterpieces and agree with
-              the data protection policy of OMNIYAT.</p>
+              the data protection policy of OMNIYAT</p>
           </div>
 
         </div>
@@ -75,7 +75,7 @@ function Footer() {
       <div className='w-full h-auto border-t-[1px] border-[#b6c386] px-[5%] py-5'>
         <div className='w-[80%] h-[50px] flex gap-10'>
           <span>The Alba Residences © 2024</span>
-          <span className='underline'>Terms & Conditions</span>
+          <span className='underline'>Terms & Conditions </span>
           <span className='underline'>Privacy Policy</span>
 
         </div>
