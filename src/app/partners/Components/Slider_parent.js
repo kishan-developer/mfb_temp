@@ -1,6 +1,7 @@
 "use client"
 
-import Slider from '../components/Slider';
+
+import Slider from "./Slider";
 
 export default function Slider_parent() {
     return (
