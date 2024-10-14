@@ -31,8 +31,8 @@ function Map_section() {
     };
 
     return (
-        <div className="h-[1244.09px] w-full">
-            <div className='h-[1244.09px] w-fill relative pb-10'>
+        <div className=" w-full ">
+            <div className=' w-fill relative'>
 
                 <Image className="relative" width={1918.08} height={1244.09} src='/location/img_2.png' alt='imgContent_img' />
 
@@ -74,9 +74,9 @@ function Map_section() {
                     </button>
                 </div>
 
-                <div className="absolute top-[990.58px] left-0 w-full h-[250.42px] ">
+                {/* <div className="absolute top-[990.58px] left-0 w-full  bg-red-800"> */}
                     <Info />
-                </div>
+                {/* </div> */}
 
 
             </div>
@@ -87,4 +87,4 @@ function Map_section() {
     )
 }
 
-export default Map_section
+export default Map_section;

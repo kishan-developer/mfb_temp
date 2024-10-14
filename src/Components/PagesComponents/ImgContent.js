@@ -8,12 +8,12 @@ function ImgContent({ contents }) {
 
 
     return (
-        <div className='w-full h-[80vh] flex flex-row'>
-            <div className='h-[100%] w-fill '>
-                <Image width={750} height={720}  src='/Home/img_content_img.jpeg' alt='imgContent_img' />
+        <div className='w-full flex flex-row pt-[180px] gap-[10px]'>
+            <div className=' '>
+                <Image width={1246} height={773} src='/partner/Ahead.png' alt='imgContent_img' />
             </div>
-            
-            <div className='w-[45%] h-[100%] flex items-center justify-center'>
+
+            <div className='w-[664px] h-[773px] flex items-center justify-center px-[100px] gap-[40px]'>
                 <SideContent contents={contents} />
             </div>
         </div>

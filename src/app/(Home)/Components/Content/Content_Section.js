@@ -34,7 +34,7 @@ function Content_Section({ data }) {
     console.log("ContentData ", data);
 
     return (
-        <div className='box w-full  gap-[68px]  bg-[#F7F3E8] text-[#3C4617] flex flex-col items-center justify-center text-center py-[100px]'>
+        <div className='box w-full h-[727.47px] gap-[68px] bg-[#F7F3E8] text-[#3C4617] flex flex-col items-center justify-center text-center py-[100px]'>
 
             {data?.logo &&
                 <div className='w-[73.77px] h-[57.47px] flex items-center justify-center '>
@@ -48,7 +48,7 @@ function Content_Section({ data }) {
 
 
                 {data?.heading?.[0] &&
-                    <h3 className="text-[#3C4617] text-[42px] font-bold w-[750px] h-[46px] leading-[45px] font-ESDokument tracking-9 uppercase ">
+                    <h3 className="text-[#3C4617] text-[42px] w-[750px] h-[46px] leading-[45px] font-ESDokument tracking-9 uppercase ">
                         {data.heading[0]}
                     </h3>
                 }
@@ -72,8 +72,6 @@ function Content_Section({ data }) {
                         {data.heading[1]}
                     </h3>
                 }
-
-
 
             </div>
 

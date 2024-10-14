@@ -9,6 +9,8 @@ import Section_5 from '../(Home)/Components/Section_5';
 import Section_7 from './Components/Section_7';
 import Section_6 from './Components/Section_6';
 import Video from '@/Components/PagesComponents/Video';
+import Video_3 from '@/Components/PagesComponents/Video_3';
+import Slider_parent from './Components/Slider_parent';
 
 function page() {
 
@@ -58,17 +60,19 @@ function page() {
 
       <Content_1 contents={contents[0]} />
 
-      <Content_img src={'/Home/img_partners.png'} contents={contents[1]} />
+      {/* <Content_img src={'/partner/Ahead.png'} contents={contents[1]} /> */}
 
       <ImgContent contents={contents[2]} />
 
-      <Content_img src={'/Home/img_content_img_3.png'} contents={contents[3]} />
+      <Content_img src={'/partner/interior.png'} contents={contents[3]} />
 
       <Section_6 contents={contents[4]} />
 
-      <Section_7 />
+     
 
-      <Video/>
+      <Slider_parent />
+
+      <Video_3/>
 
     </div>
   )

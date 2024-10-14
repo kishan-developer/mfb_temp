@@ -29,6 +29,7 @@ import Content_section_2 from "./Components/Content/Content_section_2";
 import Content_Section_3 from "./Components/Content/Content_Section_3";
 import Content_section_4 from "./Components/Content/Content_section_4";
 import PaymentPlan from "./Components/PaymentPlan";
+import Contact_form from "./Components/Content/Contact_form";
 
 
 // Register ScrollTrigger with GSAP
@@ -121,7 +122,12 @@ export default function Home() {
 
       <Map_section/>
 
+      
+      <Contact_form/>
+
       <Video_3/>
+
+      
       
     </div>
   );

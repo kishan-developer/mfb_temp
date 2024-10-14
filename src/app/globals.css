@@ -39,6 +39,19 @@ html,
 body{
   background-color: #F7F3E8;
 }
+
+
+.title {
+  
+
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  /* font-family: ESDokument; */
+}
+
+
+
+
 @layer base {
   
 

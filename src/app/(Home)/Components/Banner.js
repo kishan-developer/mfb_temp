@@ -20,7 +20,7 @@ function Banner() {
                 { y: 0 }, // Start position
                 {
                     y: -50, // Jump height (adjust as needed)
-                    duration: 0.5, // Duration of the jump
+                    duration: 1, // Duration of the jump
                     ease: "bounce.out", // Easing for a bouncing effect
                     repeat: -1, // Repeat indefinitely
                     yoyo: true // Reverse the animation after each repeat
@@ -91,13 +91,13 @@ function Banner() {
 
             <div className="parent bg-black opacity-50 p-10 w-full h-screen flex flex-col items-center justify-center">
                 
-                <h1 className="heading font-poppins text-[2rem] font-bold text-white absolute top-[30vh] left-[auto]">OMNIYAT PRESENTS</h1>
+                <h1 className="heading font-ESDokument text-[2rem] tracking-8 font-bold text-white absolute top-[30vh] left-[auto]">OMNIYAT PRESENTS</h1>
                 <div className="absolute top-[auto] left-[auto] w-[160px] h-[90px] border-white flex flex-col gap-10 items-center justify-center">
                     <Image width={160} height={90}  className="img" src="/Home/logo.png" alt="logo" />
                 </div>
 
-                <div className="logo absolute bottom-0 left-auto opacity-100 w-[60px] h-[50px]" ref={logoRef}>
-                    <Image width={60} height={50}  src="/Home/g18_svg.svg" alt="Logo" />
+                <div className="logo absolute bottom-10 left-auto opacity-100 w-[80px] h-[70px]" ref={logoRef}>
+                    <Image width={80} height={70}  src="/Home/image.png" alt="Logo" />
                 </div>
             </div>
         </section>

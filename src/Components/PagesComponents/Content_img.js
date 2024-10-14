@@ -5,14 +5,14 @@ import Image from 'next/image';
 function Content_img({ src, contents }) {
 
     return (
-        <div className='w-full h-[80vh] flex my-20'>
+        <div className='w-full  flex flex-row pt-[180px] gap-[10px] '>
 
-            <div className='w-[45%] h-[100%] flex items-center justify-center p-20'>
+            <div className='w-[664px] h-[773px] flex items-center justify-center px-[100px] '>
                 <SideContent contents={contents} />
             </div>
 
-            <div className='h-[100%] w-fill '>
-                <Image width={100} height={100}  src={src} alt='imgContent_img' />
+            <div className='h-[100%] w-fill bg-orange-900'>
+                <Image width={1246} height={773} src={src} alt='imgContent_img' />
             </div>
             
         </div>
