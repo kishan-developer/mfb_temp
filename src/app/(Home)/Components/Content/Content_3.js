@@ -13,7 +13,7 @@ function Content_3() {
                 </h3>
 
                 <p className='w-[744px] h-[96px] leading-[32px] font-Spezia text-[#3C4617] font-[18px] text-center'>
-                The undulating lines and organic forms of Zaha Hadid Architect's elemental design, rising like the sun from the Arabian Gulf, connect internal and external worlds, elevating the everyday and grounding us in nature’s beauty and serenity.
+                The undulating lines and organic forms of Zaha Hadid Architects elemental design rising like the sun from the Arabian Gulf connect internal and external worlds elevating the everyday and grounding us in nature beauty and serenity.
                 </p>
                 
             </div>
